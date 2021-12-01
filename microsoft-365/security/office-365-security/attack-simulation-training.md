@@ -253,6 +253,12 @@ On the **Landing page** page, you configure the web page that user are taken to 
 
 When you're finished, click **Next**.
 
+Landing page in Simulation Automation
+On selection of 'Randomize' option on 'select payloads' page, 'Select landing page preference' would display only 'Use Microsoft default landing page' and preview for landing page will be available without the payloads as Microsoft chooses those payloads dynamically after the simulation is launched.
+On selection of 'Manually' option on 'select payloads' page, user will be able to see all the 3 options under 'Select landing page preference' when payloads are selected from any technique other than malware attachment and link to malware. In case payloads are chosen from malware attachment or link to malware, 'Use a custom URL' wont be available as it is not applicable to these techniques.
+
+Custom landing page localization: Microsoft created custom landing pages are translated in 12 languages. Tenants can customize custom landing page in their required language.
+
 > [!NOTE]
 > Certain trademarks, logos, symbols, insignias and other source identifiers receive heightened protection under local, state and federal statutes and laws. Unauthorized use of such indicators can subject the users to penalties, including criminal fines. Though not an extensive list, this includes the Presidential, Vice Presidential, and Congressional seals, the CIA, the FBI, Social Security, Medicare and Medicaid, the United States Internal Revenue Service, and the Olympics. Beyond these categories of trademarks, use and modification of any third-party trademark carries an inherent amount of risk. Using your own trademarks and logos in a payload would be less risky, particularly where your organization permits the use. If you have any further questions about what is or is not appropriate to use when creating or configuring a payload, you should consult with your legal advisors.
 
